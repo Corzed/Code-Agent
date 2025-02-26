@@ -3,6 +3,7 @@ from rich.markdown import Markdown
 from rich.live import Live
 from rich.spinner import Spinner
 import asyncio
+from agent import agent
 
 class SimpleCLI:
     def __init__(self):
