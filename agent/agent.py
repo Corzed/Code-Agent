@@ -1,5 +1,5 @@
 from orchestrai import Agent, AgentManager
-from coding_tools import FILE_TOOLS
+from tools import FILE_TOOLS
 
 # Initialize the agent manager
 manager = AgentManager()
