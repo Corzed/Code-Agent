@@ -1,0 +1,3 @@
+git+https://github.com/Corzed/OrchestrAI.git
+python-dotenv
+rich>=10.0.0
