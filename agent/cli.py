@@ -31,7 +31,7 @@ class SimpleCLI:
                 # Get response with loading spinner
                 with Live(Spinner("dots", style="blue"), refresh_per_second=10):
                     try:
-                        response = coding_agent.run_conversation(user_input)
+                        response = agent.run_conversation(user_input)
                         # Render the agent's response with markdown
                         self.messages.append(f"[blue]Assistant:[/]\n{Markdown(response)}")
                     except Exception as e:
