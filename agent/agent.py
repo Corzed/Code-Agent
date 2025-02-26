@@ -5,7 +5,7 @@ from tools import FILE_TOOLS
 manager = AgentManager()
 
 # Create the coding agent
-coding_agent = Agent(
+agent = Agent(
     name="Programmer",
     role="""You are a coding assistant that can help with file operations and code management.
 You can read, write, edit, create, rename, and delete files, as well as execute terminal commands.
