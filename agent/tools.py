@@ -1,7 +1,7 @@
 import os
 import subprocess
 from typing import Optional, List, Union, Dict
-from orchestrai import AgentTool
+from OrchestrAI import AgentTool
 
 def read_file(path: str) -> str:
     """Read the contents of a file."""

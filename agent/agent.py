@@ -1,11 +1,11 @@
-from orchestrai import Agent, AgentManager
+from OrchestrAI import Agent, AgentManager
 from tools import FILE_TOOLS
 
 # Initialize the agent manager
 manager = AgentManager()
 
 # Create the coding agent
-agent = Agent(
+code_agent = Agent(
     name="Programmer",
     role="""You are a coding assistant that can help with file operations and code management.
 You can read, write, edit, create, rename, and delete files, as well as execute terminal commands.
@@ -16,5 +16,5 @@ Always write/run unit tests with files.""",
     manager=manager,
     verbose=True,
     tools=FILE_TOOLS,
-    model="o3-mini-high",  # Make sure to use a capable model
+    model="gpt-4o-mini",  # Make sure to use a capable model
 )
