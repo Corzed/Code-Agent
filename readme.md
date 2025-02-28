@@ -36,4 +36,4 @@ Code-Agent is an AI agent designed to help with file operations and code managem
 
 Launch the interactive command-line interface:
 ```bash
-python cli.py
+python agent/cli.py
