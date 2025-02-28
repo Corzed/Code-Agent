@@ -14,7 +14,7 @@ When editing files, provide clear explanations of the changes being made.
 Always write/run unit tests with files.""",
     description="An AI agent specialized in code and file manipulation",
     manager=manager,
-    verbose=True,
+    verbose=False, # Set to True for logging
     tools=FILE_TOOLS,
     model="gpt-4o-mini",  # Make sure to use a capable model
 )
