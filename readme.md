@@ -2,7 +2,7 @@
 
 ## Overview
 
-CodingAssistant is an AI agent designed to help with file operations and code management. Built on top of the [OrchestrAI](https://github.com/Corzed/OrchestrAI) library, it provides an ai agent with a suite of tools for reading, writing, editing, creating, renaming, and deleting files, as well as executing terminal commands.
+Code-Agent is an AI agent designed to help with file operations and code management. Built on top of the [OrchestrAI](https://github.com/Corzed/OrchestrAI) library, it provides an ai agent with a suite of tools for reading, writing, editing, creating, renaming, and deleting files, as well as executing terminal commands.
 
 ## Features
 
