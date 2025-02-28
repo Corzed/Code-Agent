@@ -10,13 +10,6 @@ CodingAssistant is an AI agent designed to help with file operations and code ma
 - **Command Execution:** Code agent can Run terminal commands and capture their output.
 - **Interactive CLI:** A rich, interactive command-line interface for a seamless user experience.
 
-## Requirements
-
-- Python 3.7 or higher
-- Dependencies listed in [requirements.txt](requirements.txt):  
-  - [OrchestrAI](https://github.com/Corzed/OrchestrAI)  
-  - python-dotenv  
-  - rich (version ≥ 10.0.0)
 
 ## Installation
 
